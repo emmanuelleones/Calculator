@@ -1,0 +1,211 @@
+#title_principal{
+    text-align: center; /* Centra el texto */
+    font-size: 300%; /* Define el tamaño de textp*/
+}
+
+#container {
+  display: flex; /* Se define trabajará  el display flex */
+  justify-content: center; /* Define la alineación a lo largo del eje principal (Horizotal POR DEFECTO _ )*/
+}
+
+#calculator {
+  background-color: #000; /* Define el color de fondo*/
+  display: flex; /**/
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 452px; /* Ancho de Calculadora*/
+  height: 579px; /*Largo de Calculadora*/
+  border: 1px solid #000;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 65px;
+  border-bottom-left-radius: 65px;
+}
+
+#fondo_1 {
+  background-color: black;
+  width: 452px;
+  height: 250px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+#fondo_2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background-color:#c3c9ca;
+  width: 435px;
+  height: 238px;
+  margin-top: 2%;
+  margin-left: 2%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+}
+
+#container_fondo_2 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap; /* Los elementos flexibles se ajustarán a varias líneas, de arriba a abajo.*/
+}
+
+#cargador {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1%;
+  margin-left: 12%;
+  border: #000;
+}
+
+.panel_principal{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid #000;
+    border-radius: 8%;
+}
+
+.panel {
+  width: 36px;
+  height: 45px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 8%;
+  background-color: rgb(68, 55, 29);
+}
+
+#identificador_calculator {
+  display: flex;
+  flex-direction: column;
+  margin-left: 12%;
+  border: #000;
+  width: 100px;
+  height: 50px;
+  justify-content: center;
+}
+
+#nombre {
+  text-align: center;
+  font-size: 160%;
+  font-weight: 2000;
+  line-height: 0.8; /*Interlineado*/
+}
+
+sp {
+  font: 900;
+  font-size: 10%;
+}
+
+#pantalla {
+  display: flex;
+  width: 380px;
+  height: 120px;
+  border: 6px solid #000;
+  margin-top: 2%;
+  margin-left: 5%;
+  border-radius: 3%;
+}
+
+#fondo_3 {
+  padding: 5%;
+  background-color: rgb(114, 108, 108);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 1px solid #000;
+  width: 452px;
+  height: 284px;
+  border-bottom-right-radius: 65px;
+  border-bottom-left-radius: 65px;
+}
+
+.columnas {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.sub_columna {
+  border: 1px solid #000;
+  margin-bottom: 23%;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  
+}
+
+.sub_columnaSuma {
+  border: 1px solid #000;
+  margin-bottom: 23%;
+  width: 50px;
+  height: 50px;
+  text-align: center;  
+}
+
+.Suma {
+  border: 2px solid #000;
+  width: 50px;
+  height: 116px;
+  text-align: center;
+  background-image: -webkit-linear-gradient(top, #363636 0%, #313234 40%, #2f2f2f 100%);    
+  font-size: 250% !important;
+  color: #c0c0c0 !important;
+}
+
+.signos{
+    font-size: 140% !important; 
+    color: #c0c0c0 !important;  
+    font-weight: 600;
+}
+.numeros{
+    color: #c0c0c0 !important;
+    font-weight: 600;
+}
+
+.sub_columnaOn {
+  border: 1px solid #000;
+  margin-bottom: 23%;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+
+.On {
+  border: 1px solid #000;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: -webkit-linear-gradient(top, #363636 0%, #313234 40%, #2f2f2f 100%);    
+  font-size: 90% !important;
+  color: #c0c0c0 !important;
+  font-weight: 900 !important;
+}
+
+.mrc{
+  border: 1px solid #000;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: -webkit-linear-gradient(top, #363636 0%, #313234 40%, #2f2f2f 100%);    
+  font-size: 110% !important;
+  color: #c0c0c0;
+  font-weight: 600;
+}
+
+
+.button {
+  border: 1px solid #000;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  background-image: -webkit-linear-gradient(top, #363636 0%, #313234 40%, #2f2f2f 100%);
+  font-size: 130%;
+}
